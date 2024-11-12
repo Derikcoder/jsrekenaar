@@ -1,0 +1,6 @@
+Hierdie is 'n eenvoudige sak rekenaar, gekodeer in HTML & CSS.
+Die funksionele berekeninge word deur Javascript hanteer.
+Hierdie is met die hulp van chatgpt saam gestel, om Afrikaans
+sprekende kinders, wie se belangstelling in kodering en 
+programmering geprikkel is, in staat te stel om baie vinniger
+te begryp wat werklik hier aangaan.

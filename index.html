@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="af">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rekenaar in Afrikaans</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="houer">
+        <h1>Rekenaar (Afrikaans)</h1>
+        
+        <div class="inset-groep">
+            <label for="getal1">Getal 1:</label>
+            <input type="number" id="getal1" required>
+        </div>
+        
+        <div class="inset-groep">
+            <label for="getal2">Getal 2:</label>
+            <input type="number" id="getal2" required>
+        </div>
+        
+        <div class="buttons">
+            <button onclick="reken('voegBy')">Bymekaar Tel</button>
+            <button onclick="reken('trekAf')">Af Trek</button>
+            <button onclick="reken('vermenigvuldig')">Vermenigvuldig</button>
+            <button onclick="reken('deel')">Deel</button>
+        </div>
+
+        <div class="resultaat" id="Resultaat">
+            Resultaat: <span id="resultText"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
